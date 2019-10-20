@@ -1,3 +1,5 @@
+// import { subscribeToNewMessages, addMessage } from '../libs/codeweek-chat-adpter/script'
+
 const newMessagesCallback = (messages) => {
     console.log("New messags:")
     console.log(messages)

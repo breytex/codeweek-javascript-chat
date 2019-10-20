@@ -1,3 +1,5 @@
+// import graphql from '../graphql/script'
+
 
 const subscribeToNewMessages = (newMessagesCallback) => {
     console.log("Subscribed to new messages")
@@ -55,3 +57,4 @@ const addMessage = async (user_name, content) => {
     }
 }
 
+// modules.exports = { subscribeToNewMessages, addMessage }
